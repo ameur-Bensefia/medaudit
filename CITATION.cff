@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. The accompanying article is under peer review; its reference will be added upon publication."
+title: "MedAudit: a framework for auditing the reported performance of diagnostic AI models across modalities and datasets"
+version: 0.3.2
+date-released: 2026-10-31
+license: MIT
+repository-code: "https://github.com/ameur-Bensefia/medaudit"
+authors:
+  - family-names: Bensefia
+    given-names: Ameur
+    affiliation: "Computer & Information Sciences Division, Higher Colleges of Technology, Abu Dhabi, United Arab Emirates"
+    email: abensefia@hct.ac.ae
+keywords:
+  - diagnostic artificial intelligence
+  - data leakage
+  - shortcut learning
+  - model evaluation
+  - generalization
+  - reproducibility

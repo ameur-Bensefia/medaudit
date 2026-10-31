@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.ipynb_checkpoints/
+# data and results are never committed
+medaudit_results/
+cache/
+*.npy
+*.npz
+*.csv.gz
+report_card.html

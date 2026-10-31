@@ -1,0 +1,8 @@
+{
+  "title": "MedAudit: a framework for auditing the reported performance of diagnostic AI models across modalities and datasets",
+  "upload_type": "software",
+  "description": "Software accompanying the article 'MedAudit: a framework for auditing the reported performance of diagnostic AI models across modalities and datasets' (under peer review).",
+  "creators": [{"name": "Bensefia, Ameur", "affiliation": "Higher Colleges of Technology, Abu Dhabi, United Arab Emirates"}],
+  "license": "MIT",
+  "keywords": ["diagnostic artificial intelligence", "data leakage", "shortcut learning", "generalization", "model evaluation"]
+}

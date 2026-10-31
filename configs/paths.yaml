@@ -1,0 +1,11 @@
+# Paths used by the scripts in scripts/. Copy this file and edit it, or point MEDAUDIT_CONFIG to your own copy.
+# root: folder that contains one sub-folder per dataset (see README, "Datasets").
+root: /path/to/datasets
+# output_dir: where prepared datasets, predictions, module results, tables and figures are written.
+output_dir: /path/to/medaudit_results
+cache_dir: /path/to/medaudit_results/cache
+seeds: [0, 1, 2]
+models: [logreg, rf, mlp]
+n_boot: 2000
+n_perm: 200
+max_images_cxr: 20000

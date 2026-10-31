@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medaudit"
+version = "0.3.2"
+description = "A framework for auditing the reported performance of diagnostic AI models across modalities and datasets"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Ameur Bensefia", email = "abensefia@hct.ac.ae"}]
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "scikit-learn", "pyyaml", "matplotlib", "pillow"]
+
+[project.optional-dependencies]
+signals = ["wfdb", "pyedflib"]
+imaging = ["torch", "torchvision", "nibabel"]
+
+[tool.setuptools]
+packages = ["medaudit", "medaudit.audits", "medaudit.adapters", "medaudit.features"]
